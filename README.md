@@ -1,4 +1,4 @@
-# example-metrics-slow-clients
+# Slow Clients Demo
 
 Code examples of how slow clients can effect HTTP metrics.
 
