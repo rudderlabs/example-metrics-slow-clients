@@ -37,7 +37,7 @@ We can simulate a slow client by passing `--limit-rate` option to the curl comma
 Let's try to simulate a really slow one:
 
 ```bash
-    curl -d "@README.md" localhost:8080 --limit-rate 60
+    curl -d "@README.md" localhost:8080 --limit-rate 1k
 ```
 
 And notice what happens with measurement logs.
