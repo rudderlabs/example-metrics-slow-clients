@@ -41,3 +41,13 @@ Let's try to simulate a really slow one:
 ```
 
 And notice what happens with measurement logs.
+
+## Buffered Body Middleware
+
+A solution to avoid measuring the time it takes to read body, is to use body buffering middleware.
+
+Try the slow client against this implementation:
+
+```bash
+    go run ./wc-buffered
+```
